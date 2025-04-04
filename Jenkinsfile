@@ -8,6 +8,7 @@ pipeline{
             Multiline comment 2
             Multiline comment 3
         */
+        /*
         stage('Build') {
             agent {
                 docker {
@@ -26,6 +27,7 @@ pipeline{
                 '''
             }
         }
+        */
         stage('Test') {
             agent {
                 docker {
