@@ -56,7 +56,7 @@ pipeline{
                     npm install serve
                     node_modules/.bin/serve -s build &
                     sleep 10
-                    npx playwright test --trace on
+                    npx playwright test --project=firefox
                 '''
             }
         }
